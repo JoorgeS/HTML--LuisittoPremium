@@ -416,7 +416,7 @@ footer {
         display: block;
     }
     .menubtn:hover {
-        opacity: 0.5;
+        opacity: none;
     }
     .carousel-inner {
         width: 100%;
