@@ -24,8 +24,8 @@ ul {
 
 .container {
     width: 90%;
-    margin: 0px 0 0;
-    justify-content:center
+    margin: auto;
+    justify-content:center;
 }
 
 .navMain {
@@ -135,13 +135,10 @@ ul {
 
 .content-section {
     width: 100%;
-    background: url("img/banner.jpg")no-repeat center center/cover;
+    background: url("/img/banner.jpg")no-repeat center center/cover;
     margin-bottom: 60px;
     color: hwb(249 0% 4%);
 }
-
-.content-section {
-    padding: 90px 0 0 30px;
 
 .content-section {
     padding: 90px 0 0 30px;
@@ -419,7 +416,7 @@ footer {
         display: block;
     }
     .menubtn:hover {
-        opacity: 0.5;
+        opacity: none;
     }
     .carousel-inner {
         width: 100%;
