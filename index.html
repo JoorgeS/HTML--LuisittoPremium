@@ -229,16 +229,21 @@
             <div class="right box">
                 <h2>Contacto</h2>
                 <div class="content">
-                    <form action="#">
-                        <div class="email">
-                            <div class="text">Email *</div>
-                            <input type="email" minlength="5" id="correo" required>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustomUsername">Correo</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    </div>
+                                    <input type="email" class="form-control" id="validationCustomUsername" placeholder="example@dominio.com" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                        Ingrese un correo válido.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        
-                        <!--<div class="email">
-                            <div class="text">Email *</div>
-                            <input type="email" minlength="5" id="correo" required>
-                        </div-->
                         <div class="msg">
                             <div class="text">Mensaje *</div>
                             <textarea rows="2" cols="25" required></textarea>
@@ -269,7 +274,7 @@
 
     <!--Scroll reveal!-->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="js/Main.js"></script>
+    <script src="Main.js"></script>
 </body>
 
 </html>
