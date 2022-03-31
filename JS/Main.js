@@ -1,6 +1,6 @@
-document.querySelector('.menubtn').addEventListener('click', () => {
-    document.querySelector('.nav-menu').classList.toggle('show');
-});
+document.querySelector('.menubtn').addEventListener('click', function () {
+        document.querySelector('.nav-menu').classList.toggle('show');
+    });
 
 
 ScrollReveal().reveal('.carousel-inner', { delay: 500 });
