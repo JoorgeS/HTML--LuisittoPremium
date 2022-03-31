@@ -58,7 +58,8 @@ ul {
 }
 
 .navMain ul li a:hover {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #cfee1d;
+    color: #cfee1d;
 }
 
 .navMain ul li a {
