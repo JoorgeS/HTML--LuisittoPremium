@@ -345,6 +345,10 @@ footer {
 .right form .btn button:hover {
     background: #ffffff;
 }
+.right .form-row{
+    width: 100%;
+    height: 80%;
+}
 
 .bottom center {
     padding: 5px;
