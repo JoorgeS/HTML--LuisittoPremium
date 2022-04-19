@@ -34,10 +34,19 @@
                     <a href="ofertas.html">Ofertas</a>
                 </li>
                 <li>
-                    <a href="TyC.html">Terminos y condiciones</a>
+                    <a href="TyC.html">Términos y Condiciones</a>
                 </li>
                 <li>
-                    <a href="Somos.html">Quienes Somos</a>
+                    <a href="Somos.html">Quiénes Somos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Crear Cuenta</a>
+                </li>
+                <li>
+                    <a href="Login.html">Iniciar Sesion</a>
+                </li>
+                <li>
+                    <a href="registro.html">Contacto</a>
                 </li>
             </ul>
             <ul class="nav-menu-right">
@@ -193,8 +202,7 @@
     </div>
 
     <!-- Footer -->
-
-    <footer>
+<footer>
         <div class="main-content">
             <div class="left box">
                 <h2>Nosotros</h2>
@@ -227,31 +235,22 @@
             </div>
 
             <div class="right box">
-                <h2>Contacto</h2>
-                <div class="content">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-row">
-                            <div class="col-md-4 mb-3">
-                                <label for="validationCustomUsername">Correo</label>
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroupPrepend1">@</span>
-                                    </div>
-                                    <input type="email" class="form-control" id="validationCustomUsername1" placeholder="example@dominio.com" aria-describedby="inputGroupPrepend" required>
-                                    <div class="invalid-feedback">
-                                        Ingrese un correo válido.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="msg">
-                            <div class="text">Mensaje *</div>
-                            <textarea rows="2" cols="25" required></textarea>
-                        </div>
-                            <button type="submit" class="btm btn-success">Enviar</button>
-                                           
-                    </form>
-                </div>
+                <h2>Suscríbete</h2>
+                <!-- Grupo: Correo Electronico -->
+                <form action="" class="formulario" id="formulario">
+			        <div class="formulario__grupo" id="grupo__correo">
+				        <label for="correo" class="formulario__label">Correo Electrónico</label>
+				        <div class="formulario__grupo-input">
+					        <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+					        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+				        </div>
+				        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			        </div>
+                        <div class="formulario__grupo formulario__grupo-btn-enviar-sb">
+				            <button type="submit" class="formulario__btn">Enviar</button>
+				            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			            </div>
+                </form>
             </div>
         </div>
         <div class="bottom">
@@ -259,7 +258,7 @@
             <span class="far fa-copyright">Todos los derechos reservados</span><span> 2021.</span>
            
         </div>
-    </footer>
+</footer>
     <!--JavaScript -->
     <!--Formulario-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
