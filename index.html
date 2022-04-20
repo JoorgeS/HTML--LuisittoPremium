@@ -89,7 +89,6 @@
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-
                 </a>
             </div>
         </div>
@@ -134,22 +133,21 @@
         <section>
             <div class="content-section">
                 <h2> Se el primero en enterarte de las ultimas promociones y Ofertas</h2>
-                <form class="needs-validation" novalidate>
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationCustomUsername">Correo</label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                </div>
-                                <input type="email" class="form-control" id="validationCustomUsername" placeholder="example@dominio.com" aria-describedby="inputGroupPrepend" required>
-                                <div class="invalid-feedback">
-                                    Ingrese un correo válido.
-                                </div>
+                <div class="correo-sub">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="well">
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <button type="button" id="validate" class="btn btn-primary">
+                                        Suscribirse
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-success" type="submit">Suscribirse</button>
+                </div>
                 </form>
                 <!--<input type="email" required class="form-control" placeholder="Ingrese correo electronico">
                     <button type="button" class="btn btn-success">Enviar</button-->

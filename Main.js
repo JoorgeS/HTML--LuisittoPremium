@@ -14,7 +14,21 @@ ScrollReveal().reveal('.image-Logo', { delay: 500 });
 ScrollReveal().reveal('.headline', { delay: 500 });
 ScrollReveal().reveal('.headline', { delay: 500 });
 
-//Contacto//
+//Suscribirse Realizado con JQUERY//
+$('#validate').click(function() {
+
+    var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+    if (regex.test($('#email').val().trim())) {
+        alert('Suscripción realizada');
+
+    } else {
+        alert('La direccón de correo no es válida');
+    }
+});
+
+
+//Contacto JS//
 const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
