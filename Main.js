@@ -20,12 +20,36 @@ $('#validate').click(function() {
     var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
 
     if (regex.test($('#email').val().trim())) {
-        alert('Suscripción realizada');
+        Swal.fire(
+			'Good job!',
+			'Su correo se ha enviado exitosamente!',
+			'success'
+		  )
 
     } else {
-        alert('La direccón de correo no es válida');
+        Swal.fire({
+			icon: 'error',
+			title: 'No pudimos procesar su solicitud',
+			text: 'escribe un correo valido e intentalo nuevamente!',
+			footer: '<a href="">Why do I have this issue?</a>'
+		  })
     }
 });
+$('#login').click(function() {
+	Swal.fire({
+		title: "Aún estamos trabajando en esta parte",
+		width: 600,
+		padding: '3em',
+		color: '#716add',
+		backdrop: `
+		  rgba(0,0,123,0.4)
+		  url("/img/nyan-cat.gif")
+		  left top
+		  no-repeat
+		`
+	  })
+});
+
 
 
 //Contacto JS//
