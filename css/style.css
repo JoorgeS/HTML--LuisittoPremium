@@ -546,9 +546,11 @@ main{
     box-sizing: 10%;
 }
 .boxform{
+    margin-right: 10%;
     padding-left: 200px;
+    margin-bottom: 20px;
     align-items: center;
-    margin-right: 400px;  
+    
 }
 
 .formulario {
@@ -704,25 +706,23 @@ main{
 
 
 
-/*Oferta - JSON */
-.mt-5 .table{
-    color: #ffffff;
-    background-color: #111111;
-    border-color: #ffffff;
-}
-.mt-5 .table .thead{
-    text-transform: uppercase;
-}
-
-
-
-
-
 
 
 
 /* TyC, Registro y Quienes Somos*/
     /*ocultar y desplegar texto*/
+    #myBtn{
+        cursor: pointer;
+    display: inline-block;
+    border: 0em;
+    font-weight: bold;
+    background: #680a80;
+    color: #ffffff;
+    font-size: 19px;
+    border: 1px solid #ffffff;
+    margin: 10px 10px;
+    margin-left: 45%;
+    }
     .hide{
     display: none;
 }
@@ -749,10 +749,6 @@ main{
     width: 500px;
     display: block;
     margin: auto;
-}
-
-#myBtn{
-    margin-bottom: 40%;
 }
 
 /* Responsive Button */
