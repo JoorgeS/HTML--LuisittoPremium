@@ -307,7 +307,10 @@ ul {
 .login-box a:hover{
     color: #cfee1d;
 }
-
+.mt-5 .table{
+    color: #ffffff;
+    background: #111111;
+}
 
 
 
