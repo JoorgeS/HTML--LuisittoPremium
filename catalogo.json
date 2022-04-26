@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Netflix",
+        "mes": "$1000",
+        "tresMeses": "$2500"
+    },
+    {
+        "nombre": "AmazonPrimeVideo",
+        "mes": "$2000",
+        "tresMeses": "$5000"
+    },
+    {
+        "nombre": "Spotify",
+        "mes": "$1000",
+        "tresMeses": "$2500"
+    },
+    {
+        "nombre": "HBO Max",
+        "mes": "$2500",
+        "tresMeses": "$5000"
+    },
+    {   "nombre": "Disney+",
+        "mes": "$3000",
+        "tresMeses": "$5000"
+    },
+    {
+        "nombre": "Star+",
+        "mes": "$3000",
+        "tresMeses": "$5000"
+    }
+
+]

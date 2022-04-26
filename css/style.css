@@ -546,11 +546,9 @@ main{
     box-sizing: 10%;
 }
 .boxform{
-    margin-right: 10%;
     padding-left: 200px;
-    margin-bottom: 20px;
     align-items: center;
-    
+    margin-right: 400px;  
 }
 
 .formulario {
@@ -706,6 +704,20 @@ main{
 
 
 
+/*Oferta - JSON */
+.mt-5 .table{
+    color: #ffffff;
+    background-color: #111111;
+    border-color: #ffffff;
+}
+.mt-5 .table .thead{
+    text-transform: uppercase;
+}
+
+
+
+
+
 
 
 
@@ -737,6 +749,10 @@ main{
     width: 500px;
     display: block;
     margin: auto;
+}
+
+#myBtn{
+    margin-bottom: 40%;
 }
 
 /* Responsive Button */
