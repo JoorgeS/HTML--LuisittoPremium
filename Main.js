@@ -1,3 +1,17 @@
+const Showpass = () => {
+document.querySelector('#eye').addEventListener('click', l => {
+    const passwordInput = document.querySelector('.pass');
+    if (l.target.classList.contains('show')) {
+        l.target.classList.remove('show');
+        passwordInput.type = 'text';
+    } else {
+        l.target.classList.add('show');
+        passwordInput.type = 'password';
+    }
+})
+};
+
+
 document.querySelector('.menubtn').addEventListener('click', () => {
     document.querySelector('.nav-menu').classList.toggle('show');
 });
@@ -14,7 +28,20 @@ ScrollReveal().reveal('.image-Logo', { delay: 500 });
 ScrollReveal().reveal('.headline', { delay: 500 });
 ScrollReveal().reveal('.headline', { delay: 500 });
 
+
+//Desplegar informacion terminos y condiciones//
+$(document).ready(() => {
+	$('#myBtn').click(function() {
+		$('#hidetext').show();
+		$('#myBtn').hide();
+
+
+		$('#parrafos').show('slow')
+	});
+});
+
 //Suscribirse Realizado con JQUERY//
+
 $('#validate').click(function() {
 
     var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
@@ -31,7 +58,7 @@ $('#validate').click(function() {
 			icon: 'error',
 			title: 'No pudimos procesar su solicitud',
 			text: 'escribe un correo valido e intentalo nuevamente!',
-			footer: '<a href="">Why do I have this issue?</a>'
+			footer: '<a href="">¿Necesitas ayuda?</a>'
 		  })
     }
 });
@@ -164,3 +191,4 @@ formulario.addEventListener('submit', (e) => {
 		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
 	}
 });
+
